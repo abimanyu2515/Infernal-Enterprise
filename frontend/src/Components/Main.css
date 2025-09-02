@@ -1,0 +1,532 @@
+*{
+    scroll-behavior: smooth;
+}
+
+.headerMain{
+    background-color: black;
+    color: white;
+}
+
+.headerMain input{
+    width: 670px;
+    height: 35px;
+    margin: 5px 0px 5px 275px;
+    border: 1px solid white;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    font-size: small;
+}
+
+.headerMain button{
+    height: 35px;
+    width: 42.5px;
+    border: 1px solid yellowgreen;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.headerMain span{
+    font-size: small;
+}
+
+/* STYLES FOR NAVBAR AND GOOGLE TRANSLATE ELEMENT */
+body{
+    min-height: 0% !important;
+    top: 0 !important;
+}
+
+body #google_translate_element .goog-te-gadget-simple{
+    border: none; 
+    outline: none;
+    background: transparent;
+    padding: 0px 0px;
+}
+
+body .VIpgJd-ZVi9od-ORHb-OEVmcd {
+    left: 0;
+    top: 0;
+    height: 0px;
+    z-index: 0;
+    position: fixed;
+    border: none;
+    border-bottom: 1px solid #6B90DA;
+    margin: 0;
+    box-shadow: 0 0 8px 1px #999
+}
+
+body .VIpgJd-ZVi9od-xl07Ob-OEVmcd {
+    z-index: 0;
+    border: none;
+    position: fixed;
+    font-family: 'Poppins';
+    box-shadow: 0 3px 8px 2px transparent;
+}
+
+body .VIpgJd-ZVi9od-SmfZ-OEVmcd {
+    z-index: 0;
+    border: none;
+    margin: 0
+}
+
+#google_translate_element{
+    right: 350px;     
+    /* top: 25px; */
+    z-index: 99;
+}
+
+.goog-te-gadget img {
+    display: none;
+}
+
+.goog-te-gadget-simple a span:nth-child(1){
+    font-family: 'Poppins';
+    color: white;
+    /* background-color: blue; */
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    padding: 9px 10px;
+    /* font-weight: bold; */
+}
+
+.goog-te-gadget-simple a span:nth-child(1):hover{
+    background: transparent;
+    font-weight: 500;
+    color: white;
+    transition: 0.3s  ease;
+}
+
+a span:nth-child(3), 
+a span:nth-child(5) {
+    display: none;
+}
+
+.VIpgJd-ZVi9od-aZ2wEe-wOHMyf-ti6hGc {
+    display: none;
+}
+
+.row .shirtName{
+    display: none;
+}
+
+.imageCol{
+    margin-top: 100px;
+}
+
+.mainIamge{
+    border: 1px solid black;
+    margin-left: 25px;
+}
+
+.thumbnailSide{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    width: 100px;
+    margin-left: 0px;
+}
+
+.img-thumbnail{
+    border: 1px solid black;
+    /* margin-left: 5px; */
+    cursor: pointer;
+}
+
+.sizeDiv span{
+    /* margin-left: 2.5px; */
+}
+
+.details .first{
+    margin: 0px 0px 0px -25px; /* Removes default margins */
+    padding: 0; /* Ensures no extra spacing */
+    text-align: left; /* Aligns text to the start */
+}
+
+.sizeDiv button{
+    margin-top: 15px;
+    margin-left: 5px;
+    border-radius: 3px;
+}
+
+.sizeDiv button:focus{
+    background-color: black;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.measureSection span{
+    margin-left: 5px;
+}
+
+.measureBtn{
+    margin-left: 0px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: yellowgreen;
+    border: 2px solid black;
+}
+
+.measureBtn:hover{
+    background-color: black;
+    color: yellowgreen;
+    transition: 0.5s ease;
+}
+
+.measureBtnOption{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: whitesmoke;
+    border: 2px solid black;
+}
+
+.hrOne{
+    width: 450px;
+}
+
+.details h6 {
+    font-size: 25px;
+    margin: 0px 0px 10px 0px; /* Removes default margins */
+    padding: 0; /* Ensures no extra spacing */
+    text-align: left; /* Aligns text to the start */
+}
+
+.price{
+    margin: 0px 0px 0px 10px;
+}
+
+.price .tag{
+    color: green;
+    font-size: 30px;
+}
+
+.price label{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.price .taxes{
+    font-size: 15px;
+    font-weight: 400;
+    margin: 5px 0px 0px 0px;
+}
+
+.price small{
+    margin: 10px 0px 10px -40px;
+    font-size: 14px;
+}
+
+.price .mrp{
+    text-decoration: line-through;
+}
+
+.product{
+    margin: 0px 0px 0px 15px;
+}
+
+.product strong{
+    display: block;
+    text-align: left;
+}
+
+.product table td{
+    font-size: 15px;
+    text-align: start;
+    padding: 5px;
+}
+
+.border{
+    font-size: 14px;
+}
+
+.border label{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.border h6{
+    color:  green;
+}
+
+.border table td{
+    font-size: 13px;
+    text-align: start;
+    padding: 5px;
+}
+
+.border .cashBack{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.border button{
+    padding: 12.5px;
+    border: none;
+    border-radius: 20px;
+}
+
+.border .one{
+    width: 200px;
+    background-color: yellow;
+    font-weight: 500;
+}
+
+.border .two{
+    width: 200px;
+    background-color: orange;
+    font-weight: 500;
+}
+
+/* RESPONSIVE SECTION */
+
+@media only screen and (max-width: 1250px){
+    .row{
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    
+}
+
+@media only screen and (max-width: 1100px){
+    .goog-te-gadget-simple a span:nth-child(1){
+        font-family: 'Poppins';
+        color: white;
+        background-color: blue;
+        border: none;
+        border-radius: 5px;
+        transition: 0.3s ease;
+        font-weight: bold;
+    }
+    
+    .goog-te-gadget-simple a span:nth-child(1):hover{
+        background: transparent;
+        color: white;
+        font-weight: 500;
+        transition: 0.3s  ease;
+    }
+}
+
+@media only screen and (max-width : 1050px) {
+    #google_translate_element{
+        right: 20px;
+    }
+}
+
+@media only screen  and (max-width: 992px){
+    .goog-te-gadget-simple a span:nth-child(1){
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    
+}
+
+@media only screen and (max-width: 600px){
+    .details .first{
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (max-width: 500px) {    
+    .headerMain span{
+        display: none;
+    }
+
+    .headerMain input{
+        width: 225px;
+        height: 35px;
+        margin: 0px 0px 0px 25px;
+    }
+    
+    .headerMain button{
+        height: 35px;
+    }    
+
+    .headerMain button img{
+        width: 25px;
+        padding: 2.5px;
+    }
+
+    .img-thumbnail{
+        width: 1000px;
+    }
+
+    .row .shirtName{
+        display: block;
+        margin-top: 5px;
+        margin-left: -90px;
+        font-size: small;
+    }
+
+    .imageCol{
+        margin-top: 0px;
+    }
+
+    .thumbnailSide{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        top: 420px;
+        height: 50px;
+        width: 50px;
+        margin-left: 5px;
+    }
+
+    .mainIamge{
+        margin-top: 0px;
+        margin-bottom: 60px;
+        margin-left: 0px;
+
+    }
+
+    .sizeDiv{
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        margin: 20px 0px 0px 10px;
+    }
+
+    .sizeDiv button{
+        margin: 0px 5px 0px 5px;
+        padding: 7.5px 12.5px;
+        background-color: white;
+        border: 2px solid black;
+    }
+
+    .measureBtn{
+        margin-left: 10px;
+    }
+
+    .hrOne{
+        width: 500px;
+    }
+
+    .price .taxes{
+        font-size: 12px;
+        margin: 5px 0px 0px -5px;
+    }
+
+    .product table td{
+        margin: 0px;
+        text-align: start;
+        padding-right: 30px;
+    }
+
+    .border label{
+        margin-top: 15px;
+    }
+
+    .border button{
+        font-weight: bold;
+    }
+
+    .border .one{
+        width: 360px;
+        background-color: yellow;
+        font-weight: 500;
+    }
+    
+    .border .two{
+        width: 360px;
+        background-color: orange;
+        font-weight: 500;
+    }
+}
+
+@media only screen and (max-width: 450px){
+}
+
+@media only screen and (max-width: 425px){
+    .row p{
+        margin-left: -100px;
+    }
+    
+    .mainIamge{
+        border-top: none;
+        border-bottom: 1px solid black;
+    }
+
+    .details .first{
+        /* margin-left: -75px; */
+    }
+
+    .headerMain input{
+        width: 205px;
+        height: 35px;
+        margin: 0px 0px 0px 25px;
+    }
+    
+    .headerMain button{
+        height: 34.25px;
+        padding: 3.5px;
+    }    
+
+    .headerMain button img{
+        width: 25px;
+        padding: 2.5px;
+    }
+
+    .thumbnailSide{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        top: 450px;
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .thumbnailSide{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        top: 430px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .row p {
+        margin-left: -90px;
+    }
+
+    .details .first{
+        /* margin-left: -60px; */
+    }
+}
+
+@media only screen and (max-width: 385px){   
+    .headerMain input{
+        width: 205px;
+        height: 35px;
+        margin: 0px 0px 0px 25px;
+    }
+    
+    .headerMain button{
+        height: 35px;
+        padding: 3.5px;
+    }    
+
+    .headerMain button img{
+        width: 25px;
+        padding: 2.5px;
+    }
+
+    .thumbnailSide{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+        width: 50px;
+    }
+
+    .details .first{
+        /* margin-left: -25px; */
+    }
+}
+
+@media only screen and (max-width: 350px){
+    
+}

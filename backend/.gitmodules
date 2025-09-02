@@ -1,0 +1,6 @@
+[submodule "E-commerce-frontend"]
+	path = E-commerce-frontend
+	url = https://github.com/abimanyu2515/E-commerce-frontend
+[submodule "Virtual-TryON"]
+	path = Virtual-TryON
+	url = https://github.com/Dicson681/Virtual-TryON.git
